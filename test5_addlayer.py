@@ -1,7 +1,5 @@
 #! usr/bin/env python3
 # -*- coding:utf-8 -*-
-
-
 import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
@@ -90,13 +88,10 @@ for i in range(1000):
         write.add_summary(result,i)
 #注意文件名以.ckpt结尾。
 saver.save(sess,r'C:\Users\zhouk\PycharmProjects\TensorFlow\tensorflow\nums\save_net.ckpt')
-
-
 ################################################
 #保存最终拟合结果
 # plt.savefig(r'C:\Users\zhouk\PycharmProjects\TensorFlow\tensorflow\nums\result.png')
 ###############################################
-
 
 ###############################################
 #可视化参见这里
@@ -107,9 +102,5 @@ saver.save(sess,r'C:\Users\zhouk\PycharmProjects\TensorFlow\tensorflow\nums\save
 
 ###############################################
 #保存的参数的利用途径
-import tensorflow as tf
-
-
-
 ###############################################
 
